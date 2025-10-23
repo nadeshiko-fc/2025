@@ -1,0 +1,153 @@
+input#ff-num {
+    width: 3em;
+    text-align: right;
+}
+
+
+input#hd-num {
+    width: 3em;
+    text-align: right;
+}
+
+
+input#ok-num {
+    width: 3em;
+    text-align: right;
+}
+
+
+input#kr-num {
+    width: 3em;
+    text-align: right;
+}
+
+
+input#sui-num {
+    width: 3em;
+    text-align: right;
+}
+
+input#total {
+    width: 5em;
+    text-align: right;
+}
+
+.total {
+    text-align: right;
+    width: 5em;
+}
+
+.totalAll {
+    text-align: right;
+    font-size: xx-large;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#totalAll {
+    border: none;
+    width: 5em;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.labelTotal {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+button.clearButton {
+    width: 10em;
+    height: 4em;
+    text-align: center;
+}
+
+button.updateButton {
+    width: 10em;
+    height: 4em;
+    text-align: center;
+}
+
+
+input {
+    font-size: 16px;
+}
+
+td.nowrap {
+    white-space: nowrap;
+}
+
+tr.forCustomer {
+    transform: rotate(180deg);
+}
+
+div {
+    white-space: nowrap;
+}
+
+.user-select-none {
+    user-select: none;
+}
+
+.button-fr {
+    background-color: rgb(195, 151, 229);
+    color: white;
+    border-color: rgb(195, 151, 229);
+}
+.button-fr:hover {
+    background-color: rgb(195, 151, 229);
+    color: white;
+    border-color: rgb(195, 151, 229);   
+}
+
+.button-hd {
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+.button-hd:hover {
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+
+.button-ok {
+    background-color: #ff9e8c;
+    color: black;
+    border-color: #ff9e8c;
+}
+.button-ok:hover {
+    background-color: #ff9e8c;
+    color: black;
+    border-color: p#ff9e8c;
+}
+
+.button-kr {
+    background-color: #58d34b;
+    color: white;
+    border-color: #58d34b;
+}
+.button-kr:hover {
+    background-color: #58d34b;
+    color: white;
+    border-color: #58d34b;
+}
+
+.button-sui {
+    background-color: rgb(121, 172, 206);
+    color: white;
+    border-color: rgb(121, 172, 206);
+}
+.button-sui:hover {
+    background-color: rgb(121, 172, 206);
+    color: white;
+    border-color: rgb(121, 172, 206);
+}
+
+
+.customer-view {
+	/*flex: 1;*/
+	padding: 0 var(--global-space);	/*上下、左右へのコンテンツ内の余白。左右の余白についてはcss冒頭のglobal-spaceを読み込みます。*/
+    height: 64px;
+}
